@@ -5,6 +5,7 @@ public class Exercise6 {
 		String x=s.substring(0,s.length()-n);
 		s="";
 		while(n>0) {
+			x=x.substring(0,x.length()-1);
 			s+=x;
 			n--;
 		}
